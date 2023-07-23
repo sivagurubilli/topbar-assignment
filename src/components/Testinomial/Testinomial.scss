@@ -1,0 +1,74 @@
+/* Base styles */
+.testinomial {
+    padding: 2%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  .testinomial-bottom {
+    display: flex;
+    padding: 20px;
+    width: 60%;
+    margin-left: 20%;
+  }
+  
+  .testinomial-left {
+    display: flex;
+  }
+  
+  .names {
+    padding: 10px;
+  }
+  
+  .divider {
+    border: 1px solid pink;
+    width: 1px;
+    height: 90px;
+  }
+  
+  .testinomial-right img {
+    padding-left: 20px;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For smaller screens or mobile devices */
+  @media screen and (max-width: 767px) {
+    .testinomial, .testinomial-bottom {
+      width: 90%;
+      margin-left: 5%;
+    }
+    .divider{
+        display: none;
+    }
+    .testinomial-bottom {
+      flex-direction: column;
+    }
+  
+    .testinomial-left, .testinomial-right {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  /* For medium-sized screens */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .testinomial, .testinomial-bottom {
+      width: 80%;
+      margin-left: 10%;
+    }
+    .divider{
+        display: none;
+    }
+  }
+  
+  /* For larger screens */
+  @media screen and (min-width: 1024px) {
+    .testinomial, .testinomial-bottom {
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+  
