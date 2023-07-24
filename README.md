@@ -9,7 +9,18 @@ This full-stack web development project demonstrates various concepts and techno
 4. html
 5. css
 
+# Getting Started
+1. Clone this repository.
+2. Install dependencies with npm install.
+ 
+# Usage In the local system
+Start the development server with npm run dev. Visit http://localhost:3000 in your browser
 
 
+# Home Page
 
 
+![Screenshot (404)](https://github.com/sivagurubilli/topbar-assignment/assets/92457968/2b7886a6-f4ad-49f5-80bf-57b3dc2251a7)
+
+# shopping page
+![Screenshot (405)](https://github.com/sivagurubilli/topbar-assignment/assets/92457968/7b2577dc-df49-4c9c-846a-39b66906d269)
